@@ -31,12 +31,13 @@ user_choice = input("Enter your choice: 1 for Rock, 2 for Paper, 3 for Scissors 
 
 comp_choice = random.randint(1, 3)
 
-if(user_choice == 1 && comp_choice == 1):
+if(user_choice == 1 and comp_choice == 1):
     print("Match Tie!")
-elif(user_choice == 1 && comp_choice == 2):
+elif(user_choice == 1 and comp_choice == 2):
     print("Computer Wins!")
-elif(user_choice == 1 && comp_choice == 3):
+elif(user_choice == 1 and comp_choice == 3):
     print("You win!")
-elif(user_choice == 2 && comp_choice == 1):
+elif(user_choice == 2 and comp_choice == 1):
     print("You Win!")
-elif(user_choice == 2 && comp_choice == 2):
+elif(user_choice == 2 and comp_choice == 2):
+    print("will write afterward!")
